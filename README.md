@@ -1,3 +1,9 @@
+🇬🇧 [English](README.md) | 🇵🇱 [Polski](README.pl.md)
+
+![Last updated](https://img.shields.io/badge/Last%20updated-April%202026-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Skills](https://img.shields.io/badge/Skills-15-orange.svg)
+
 # Claude Code SaaS Skills
 
 A curated collection of **Agent Skills** for [Claude Code](https://claude.ai/claude-code) — purpose-built for SaaS founders, indie hackers, and small teams building products with modern stacks (Next.js, Supabase, Vercel, Tailwind).
