@@ -5,10 +5,20 @@
     "email": "dariusz.ciesielski.71@gmail.com"
   },
   "metadata": {
-    "description": "Agent Skills do budowania produkcyjnych aplikacji SaaS w Claude Code — Next.js + Supabase + Vercel. 15 skilli podzielonych na 3 obszary: growth (marketing/analytics/outreach), Supabase security + debugging oraz design system + architektura agentów.",
-    "version": "1.0.0"
+    "description": "Agent Skills do budowania produkcyjnych aplikacji SaaS w Claude Code — Next.js + Supabase + Vercel. 17 skilli podzielonych na 4 obszary: growth (marketing/analytics/outreach), Supabase security + debugging, design system + architektura agentów oraz AI tools (llm-scraper, markitdown).",
+    "version": "1.1.0"
   },
   "plugins": [
+    {
+      "name": "saas-ai-tools",
+      "description": "Produkcyjnie sprawdzone narzędzia AI do scrapingu i konwersji dokumentów: llm-scraper (structured web extraction z Zod schemas), markitdown (dowolny dokument → LLM-ready markdown). Zero-cost z lokalnym Ollama lub ~$0.002/stronę z cloud LLM.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/llm-scraper",
+        "./skills/markitdown"
+      ]
+    },
     {
       "name": "saas-growth",
       "description": "Growth stack dla SaaS: senior growth advisor, analityka (GA4/GTM), cold email outreach, SEO programatyczne i liczenie kosztów AI w Supabase. Wszystko czego potrzebuje micro-founder do pierwszych 100 klientów.",
