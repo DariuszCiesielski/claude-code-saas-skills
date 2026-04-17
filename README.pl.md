@@ -25,6 +25,24 @@ Agent Skills to zestawy instrukcji, które rozszerzają możliwości Claude Code
 
 ## Instalacja
 
+### Claude Code Plugin Marketplace (rekomendowane)
+
+```
+/plugin marketplace add DariuszCiesielski/claude-code-saas-skills
+```
+
+Następnie `Browse and install plugins` → `claude-code-saas-skills` → wybierz zestaw: `saas-growth`, `saas-supabase-security` lub `saas-foundations`.
+
+Alternatywnie bezpośrednio:
+
+```
+/plugin install saas-growth@claude-code-saas-skills
+/plugin install saas-supabase-security@claude-code-saas-skills
+/plugin install saas-foundations@claude-code-saas-skills
+```
+
+### Instalacja ręczna
+
 **Pojedynczy skill:**
 ```bash
 mkdir -p ~/.claude/skills/growth-lead

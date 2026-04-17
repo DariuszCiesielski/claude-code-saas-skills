@@ -1,0 +1,52 @@
+{
+  "name": "claude-code-saas-skills",
+  "owner": {
+    "name": "Dariusz Ciesielski",
+    "email": "dariusz.ciesielski.71@gmail.com"
+  },
+  "metadata": {
+    "description": "Agent Skills do budowania produkcyjnych aplikacji SaaS w Claude Code — Next.js + Supabase + Vercel. 15 skilli podzielonych na 3 obszary: growth (marketing/analytics/outreach), Supabase security + debugging oraz design system + architektura agentów.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "saas-growth",
+      "description": "Growth stack dla SaaS: senior growth advisor, analityka (GA4/GTM), cold email outreach, SEO programatyczne i liczenie kosztów AI w Supabase. Wszystko czego potrzebuje micro-founder do pierwszych 100 klientów.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/growth-lead",
+        "./skills/analytics-tracking",
+        "./skills/cold-email",
+        "./skills/programmatic-seo",
+        "./skills/ai-token-counter"
+      ]
+    },
+    {
+      "name": "saas-supabase-security",
+      "description": "Stack bezpieczeństwa i debugowania dla aplikacji Next.js + Supabase + Vercel: RLS/admin roles, multi-tenant auth, security review, vault dla kluczy, fullstack guardian oraz dedykowany debugger Vercel+Supabase.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/supabase-auth-admin-roles",
+        "./skills/supabase-auth-multi-tenant",
+        "./skills/security-reviewer",
+        "./skills/credentials-vault",
+        "./skills/fullstack-guardian",
+        "./skills/vercel-supabase-debugger"
+      ]
+    },
+    {
+      "name": "saas-foundations",
+      "description": "Fundamenty produktu SaaS: hierarchia agentów AI (domeny, routing) + kompletny design system (6 motywów Tailwind + shadcn/ui, komponenty ThemeContext/UserMenu, checklist implementacji).",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/agent-hierarchy",
+        "./skills/design-system-themes",
+        "./skills/design-system-components",
+        "./skills/design-system-checklist"
+      ]
+    }
+  ]
+}

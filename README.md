@@ -29,6 +29,28 @@ These aren't generic templates. Each skill encodes a **real pattern extracted fr
 
 ## Quick start — 1 command
 
+### Claude Code Plugin Marketplace (recommended)
+
+```
+/plugin marketplace add DariuszCiesielski/claude-code-saas-skills
+```
+
+Then:
+1. `Browse and install plugins`
+2. Select `claude-code-saas-skills`
+3. Pick a bundle: `saas-growth`, `saas-supabase-security`, or `saas-foundations`
+4. `Install now`
+
+Or install a specific bundle directly:
+
+```
+/plugin install saas-growth@claude-code-saas-skills
+/plugin install saas-supabase-security@claude-code-saas-skills
+/plugin install saas-foundations@claude-code-saas-skills
+```
+
+### Bash installer (other editors / all skills at once)
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/DariuszCiesielski/claude-code-saas-skills/main/install.sh | bash
 ```
